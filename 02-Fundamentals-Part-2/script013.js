@@ -4,8 +4,8 @@
 
 
 //function declaration
-function calcAge1(birthDay) {
-    return 2024 - birthDay;
+function calcAge1(birthYear) {
+    return 2024 - birthYear;
 }
 
 const age1 = calcAge1(2002);
@@ -15,8 +15,8 @@ console.log(age1);
 // expressions produce values
 
 // function without a nem which is called a Anonymous function
-const calcAge2 = function (birthDay) {
-    return 2024 - birthDay
+const calcAge2 = function (birthYear) {
+    return 2024 - birthYear
         ;
 }
 
