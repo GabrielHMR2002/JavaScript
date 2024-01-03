@@ -13,7 +13,7 @@ const gabriel = {
 console.log(gabriel);
 
 //to get the something from the object
-
+0
 //Dot notation
 console.log(gabriel.firstName);
 console.log(gabriel.age);
