@@ -169,3 +169,40 @@ main {
 .hidden {
   display: none;
 }
+
+/* Existing styles remain unchanged */
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 50%;
+  }
+
+  main {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .player {
+    padding: 4rem;
+  }
+
+  .btn {
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    margin: 1rem; /* Add margin to separate buttons */
+  }
+
+  .dice {
+    top: auto; /* Remove the top property to allow automatic vertical centering */
+    bottom: 4rem; /* Add bottom property to adjust the dice position from the bottom */
+    height: 7rem;
+  }
+
+  /* Center the buttons horizontally */
+  .btn--new, .btn--roll, .btn--hold {
+    position: static;
+    transform: none;
+    margin: 1rem; /* Add margin to separate buttons */
+  }
+}
